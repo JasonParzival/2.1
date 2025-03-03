@@ -11,8 +11,21 @@
   </head>
   <body>
     <div class="container p-2">
-        <button type="button" class="btn btn-primary">Я кнопочка</button>
-    </div>  
+        <button type="button" class="btn btn-primary" onclick="first(this)">Я синяя кнопочка</button>
+        <button type="button" class="btn btn-info" onclick="first(this)">Я бирюзовая кнопочка</button>
+        <button type="button" class="btn btn-warning" onclick="first(this)">Я желтая кнопочка</button>
+    </div>
+      
+    <div class="container p-2">
+        <button type="button" class="btn btn-outline-secondary" onclick="second(this)">Я серая кнопочка</button>
+        <button type="button" class="btn btn-outline-danger" onclick="second(this)">Я опасная кнопочка</button>
+    </div>
+
+    <script>
+        function onMyKnopochkaPress () {
+          alert("Привет! =)")
+        }
+    </script> 
 
 
     <!-- Optional JavaScript -->
